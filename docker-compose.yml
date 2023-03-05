@@ -18,4 +18,4 @@ services:
       - ./assets:/assets:ro
       - ./src/public:/pub:ro
     ports:
-      - 9999:80
+      - 19999:80

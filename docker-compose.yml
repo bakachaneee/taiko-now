@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo
+  redis:
+    image: redis
+  app:
+    build: .
+  proxy:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./assets:/assets:ro
+      - ./src/public:/pub:ro
+    ports:
+      - 9999:80

@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-ipfs get -o src QmeAhcyXC4u2nuRTVj1J2NaDSu9npwjNsVNT5YfusAY5Rn
+ipfs get -o src QmcVDMu4SH6ZujiuqG3JThM9TP8LctHoGJN9cTtg39iiu8
 ipfs get -o assets QmaFh1sZW9wYqPcqDhfDPc1qrL3iyqoC3YMBDFW32EgnNd
 ```
 

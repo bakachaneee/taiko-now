@@ -1,5 +1,7 @@
 /assets
 /src
+/songs
+/db.json
 
 /mongo
 /redis

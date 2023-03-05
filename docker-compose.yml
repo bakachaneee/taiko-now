@@ -17,5 +17,6 @@ services:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
       - ./assets:/assets:ro
       - ./src/public:/pub:ro
+      - ./songs:/songs:ro
     ports:
       - 19999:80

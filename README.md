@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-ipfs get -o src QmcVDMu4SH6ZujiuqG3JThM9TP8LctHoGJN9cTtg39iiu8
+ipfs get -o src QmeabY3mmXuSt4m7y3fQ75GUFTh1eRqvMQq8R8M23wGhAN
 ipfs get -o assets QmaFh1sZW9wYqPcqDhfDPc1qrL3iyqoC3YMBDFW32EgnNd
 ipfs get -o songs QmaHLZ6W3q3VrNRo8HmCpQHCyKr6iPMAYRM4nRSWQgbpe3
 ipfs get -o db.json QmZW9LKQGNVwjjcnLHJhaL7hC4MMt9F26HPNq2rmrsp5FR
